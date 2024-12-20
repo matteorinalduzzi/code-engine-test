@@ -50,7 +50,7 @@ def main(params):
           
           ## use the text generator to create a response sentence
           #  with 10 words
-          "body": lorem.words(words),
+          "body": params,
       }
 # Optional:
 #   If you used a function name different from 'main', make
